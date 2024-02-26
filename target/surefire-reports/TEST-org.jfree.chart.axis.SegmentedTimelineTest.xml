@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="31" failures="0" name="org.jfree.chart.axis.SegmentedTimelineTest" time="0.988" errors="0" skipped="0">
+<testsuite tests="31" failures="0" name="org.jfree.chart.axis.SegmentedTimelineTest" time="0.999" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491/jfree-chart-1.0.19-CI"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491/jfree-chart-1.0.19-CI"/>
+    <property name="user.dir" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="21.0.2"/>
     <property name="os.arch" value="aarch64"/>
@@ -62,24 +62,24 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThroughFridayIncludedAndExcludedSegments" time="0"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThroughFridayInc" time="0.042"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThroughFridayIncludedAndExcludedSegments" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThroughFridayInc" time="0.064"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2Segment" time="0"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2IncludedAndExcludedSegments" time="0"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2IncludedAndExcludedSegments" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2BaseTimelineTranslations" time="0.018"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsExceptionSegments" time="0"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsExceptionSegments" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsSegmentedTimeline" time="0"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testSerialization" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsInc" time="0.029"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsTranslations" time="0.009"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsSegment" time="0"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsIncludedAndExcludedSegments" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsInc" time="0.034"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsTranslations" time="0.008"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsSegment" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMsIncludedAndExcludedSegments" time="0"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testBasicSegmentedTimeline" time="0"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinIncludedAndExcludedSegments" time="0"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2Translations" time="0.517"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testSegmentedTimelineWithException1" time="0"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinExceptionSegments" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testCloning" time="0"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2Translations" time="0.512"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testSegmentedTimelineWithException1" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinExceptionSegments" time="0"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testCloning" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinSegmentedTimeline" time="0"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThroughFridaySegment" time="0.015"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinSegment" time="0"/>
@@ -90,7 +90,7 @@
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2Inc" time="0.027"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testSerialization2" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMs2BaseTimelineExceptionSegments" time="0"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThoughFridayExceptionSegments" time="0.004"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinInc" time="0.033"/>
-  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinTranslations" time="0.289"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testMondayThoughFridayExceptionSegments" time="0"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinInc" time="0.027"/>
+  <testcase classname="org.jfree.chart.axis.SegmentedTimelineTest" name="testFifteenMinTranslations" time="0.286"/>
 </testsuite>

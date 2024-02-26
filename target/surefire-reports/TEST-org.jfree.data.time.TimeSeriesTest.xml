@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="44" failures="0" name="org.jfree.data.time.TimeSeriesTest" time="0.006" errors="0" skipped="0">
+<testsuite tests="44" failures="0" name="org.jfree.data.time.TimeSeriesTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491/jfree-chart-1.0.19-CI"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491/jfree-chart-1.0.19-CI"/>
+    <property name="user.dir" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="21.0.2"/>
     <property name="os.arch" value="aarch64"/>
@@ -73,37 +73,37 @@
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAdd" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testClear" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testClone" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testCreateCopy1" time="0"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testCreateCopy1" time="0.001"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testCreateCopy2" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testCreateCopy3" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testBug3446965" time="0.001"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testBug3446965" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAddOrUpdate" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAddValue" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testGetMaxY" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testGetMinY" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testFindValueRange" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testFindValueRange2" time="0"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testFindValueRange2" time="0.001"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testRemoveAgedItems" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testSetMaximumItemCount" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAdd_TimeSeriesDataItem" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAddOrUpdate2" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAddOrUpdate3" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAddOrUpdate4" time="0.001"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testAddOrUpdate4" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testDelete_RegularTimePeriod" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testGetDataItem1" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testGetDataItem2" time="0"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testGetDataItem2" time="0.001"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testHashCode" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testDelete2" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testDelete3" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testClone2" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testDelete" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testDelete" time="0.001"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testEquals" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testBug1075255" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testRemoveAgedItems2" time="0.001"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testRemoveAgedItems3" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testRemoveAgedItems4" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testRemoveAgedItems5" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testSetKey" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testBug1832432" time="0"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testBug1832432" time="0.001"/>
   <testcase classname="org.jfree.data.time.TimeSeriesTest" name="testBug1864222" time="0"/>
 </testsuite>

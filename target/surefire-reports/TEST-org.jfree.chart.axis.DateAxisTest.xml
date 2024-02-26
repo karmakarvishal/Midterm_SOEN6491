@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="org.jfree.chart.axis.DateAxisTest" time="0.039" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="org.jfree.chart.axis.DateAxisTest" time="0.038" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491/jfree-chart-1.0.19-CI"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -13,7 +13,7 @@
     <property name="user.country" value="CA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491/jfree-chart-1.0.19-CI"/>
+    <property name="user.dir" value="/Users/vishalkarmakar/Desktop/SOEN6491/Midterm_SOEN6491"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="21.0.2"/>
     <property name="os.arch" value="aarch64"/>
@@ -62,9 +62,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetMaximumDate" time="0.002"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testBug2201869" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSerialization" time="0.004"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetMaximumDate" time="0"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testBug2201869" time="0.002"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSerialization" time="0.003"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateHourA" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateHourB" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateYearA" time="0"/>
@@ -72,15 +72,15 @@
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testBug3484403" time="0.002"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMonthA" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMonthB" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateDayA" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateDayA" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateDayB" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testJava2DToValue" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="test1472942" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="test1472942" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testHashCode" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondA" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondB" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testEquals" time="0.024"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testHashCode" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondA" time="0"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondB" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testEquals" time="0.025"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetMinimumDate" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMillisecondA" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMillisecondB" time="0"/>
