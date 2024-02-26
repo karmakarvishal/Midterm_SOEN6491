@@ -62,8 +62,8 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.AreaChartTest" name="testDrawWithNullInfo" time="0.001"/>
+  <testcase classname="org.jfree.chart.AreaChartTest" name="testDrawWithNullInfo" time="0"/>
   <testcase classname="org.jfree.chart.AreaChartTest" name="testSetSeriesToolTipGenerator" time="0"/>
   <testcase classname="org.jfree.chart.AreaChartTest" name="testSetSeriesURLGenerator" time="0"/>
-  <testcase classname="org.jfree.chart.AreaChartTest" name="testReplaceDataset" time="0"/>
+  <testcase classname="org.jfree.chart.AreaChartTest" name="testReplaceDataset" time="0.001"/>
 </testsuite>

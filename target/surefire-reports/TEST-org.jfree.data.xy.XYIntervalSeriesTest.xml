@@ -62,13 +62,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testSerialization" time="0"/>
+  <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testAdd" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testSetMaximumItemCount2" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testClear" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testSetMaximumItemCount" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testAdditionOfDuplicateXValues" time="0.001"/>
+  <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testAdditionOfDuplicateXValues" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testIndexOf2" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testEquals" time="0"/>
   <testcase classname="org.jfree.data.xy.XYIntervalSeriesTest" name="testIndexOf" time="0"/>

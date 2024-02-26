@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="22" failures="0" name="org.jfree.data.time.YearTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="22" failures="0" name="org.jfree.data.time.YearTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -65,7 +65,7 @@
   <testcase classname="org.jfree.data.time.YearTest" name="testGetFirstMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testGetStart" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testSerialization" time="0"/>
-  <testcase classname="org.jfree.data.time.YearTest" name="testParseYear" time="0"/>
+  <testcase classname="org.jfree.data.time.YearTest" name="testParseYear" time="0.001"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testNext" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testGetLastMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testEqualsSelf" time="0"/>
@@ -75,7 +75,7 @@
   <testcase classname="org.jfree.data.time.YearTest" name="testGetFirstMillisecond" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testGetFirstMillisecondWithTimeZone" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testNotCloneable" time="0"/>
-  <testcase classname="org.jfree.data.time.YearTest" name="test1900Next" time="0.001"/>
+  <testcase classname="org.jfree.data.time.YearTest" name="test1900Next" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="test9999Previous" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testGetSerialIndex" time="0"/>
@@ -83,5 +83,5 @@
   <testcase classname="org.jfree.data.time.YearTest" name="testGetEnd" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="test9999Next" time="0"/>
   <testcase classname="org.jfree.data.time.YearTest" name="testGetLastMillisecond" time="0"/>
-  <testcase classname="org.jfree.data.time.YearTest" name="testGetLastMillisecondWithTimeZone" time="0"/>
+  <testcase classname="org.jfree.data.time.YearTest" name="testGetLastMillisecondWithTimeZone" time="0.001"/>
 </testsuite>

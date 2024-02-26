@@ -67,6 +67,6 @@
   <testcase classname="org.jfree.chart.renderer.xy.XYAreaRendererTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYAreaRendererTest" name="testGetLegendItemSeriesIndex" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYAreaRendererTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.XYAreaRendererTest" name="testHashcode" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.xy.XYAreaRendererTest" name="testHashcode" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYAreaRendererTest" name="testEquals" time="0"/>
 </testsuite>

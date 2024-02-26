@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testAddURLSeries" time="0"/>
-  <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testSerialization" time="0.001"/>
-  <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testPublicCloneable" time="0"/>
+  <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testSerialization" time="0"/>
+  <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testPublicCloneable" time="0.001"/>
   <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.urls.CustomCategoryURLGeneratorTest" name="testEquals" time="0"/>
 </testsuite>

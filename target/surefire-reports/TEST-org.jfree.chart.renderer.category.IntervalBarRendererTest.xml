@@ -66,7 +66,7 @@
   <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testSerialization" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testFindRangeBounds" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testCloning" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testCloning" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.IntervalBarRendererTest" name="testEquals" time="0"/>
 </testsuite>

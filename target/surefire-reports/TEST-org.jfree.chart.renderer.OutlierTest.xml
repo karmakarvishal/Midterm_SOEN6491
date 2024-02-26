@@ -64,6 +64,6 @@
   </properties>
   <testcase classname="org.jfree.chart.renderer.OutlierTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.chart.renderer.OutlierTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.OutlierTest" name="testEquals" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.OutlierTest" name="testEquals" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.OutlierTest" name="testConstructor" time="0"/>
 </testsuite>

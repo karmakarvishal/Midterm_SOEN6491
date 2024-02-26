@@ -69,10 +69,10 @@
   <testcase classname="org.jfree.chart.JFreeChartTest" name="testGetSubtitle" time="0"/>
   <testcase classname="org.jfree.chart.JFreeChartTest" name="testAddSubtitle" time="0"/>
   <testcase classname="org.jfree.chart.JFreeChartTest" name="testBug942" time="0"/>
-  <testcase classname="org.jfree.chart.JFreeChartTest" name="testEquals" time="0"/>
+  <testcase classname="org.jfree.chart.JFreeChartTest" name="testEquals" time="0.001"/>
   <testcase classname="org.jfree.chart.JFreeChartTest" name="testGetSubtitles" time="0"/>
   <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization1" time="0.002"/>
-  <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization2" time="0.001"/>
-  <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization3" time="0.001"/>
-  <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization4" time="0.006"/>
+  <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization2" time="0"/>
+  <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization3" time="0.002"/>
+  <testcase classname="org.jfree.chart.JFreeChartTest" name="testSerialization4" time="0.005"/>
 </testsuite>

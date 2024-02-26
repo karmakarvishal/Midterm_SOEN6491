@@ -69,6 +69,6 @@
   <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testGetLegendItemSeriesIndex" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testHashcode" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testFindDomainBounds" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testFindDomainBounds" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.xy.XYLineAndShapeRendererTest" name="testEquals" time="0"/>
 </testsuite>

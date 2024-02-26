@@ -64,7 +64,7 @@
   </properties>
   <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testPublicCloneable" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testGetLegendItemSeriesIndex" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testGetLegendItemSeriesIndex" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYDotRendererTest" name="testEquals" time="0"/>

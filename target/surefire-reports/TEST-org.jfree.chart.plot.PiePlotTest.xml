@@ -63,14 +63,14 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testDrawWithNullLegendLabels" time="0.001"/>
-  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testCloning_LegendItemShape" time="0"/>
-  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testSerialization" time="0.004"/>
+  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testCloning_LegendItemShape" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testSerialization" time="0.003"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testCloning_LegendLabelURLGenerator" time="0"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testCloning_URLGenerator" time="0"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testCloning_LegendLabelToolTipGenerator" time="0"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testGetLegendItems" time="0"/>
-  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126" time="0.001"/>
-  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126_b" time="0"/>
+  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126" time="0"/>
+  <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126_b" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126_c" time="0"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126_d" time="0"/>
   <testcase classname="org.jfree.chart.plot.PiePlotTest" name="testBug1126_e" time="0"/>

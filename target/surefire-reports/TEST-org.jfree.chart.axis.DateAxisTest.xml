@@ -63,25 +63,25 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetMaximumDate" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testBug2201869" time="0.002"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSerialization" time="0.003"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testBug2201869" time="0"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSerialization" time="0.004"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateHourA" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateHourB" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateHourB" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateYearA" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateYearB" time="0"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateYearB" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testBug3484403" time="0.002"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMonthA" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMonthB" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateDayA" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateDayB" time="0"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateDayB" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testJava2DToValue" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="test1472942" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testHashCode" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondA" time="0"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondB" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondA" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateSecondB" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testEquals" time="0.025"/>
-  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetMinimumDate" time="0"/>
+  <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetMinimumDate" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMillisecondA" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testPreviousStandardDateMillisecondB" time="0"/>
   <testcase classname="org.jfree.chart.axis.DateAxisTest" name="testSetRange" time="0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="org.jfree.data.time.WeekTest" time="0.003" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="org.jfree.data.time.WeekTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -62,15 +62,15 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.data.time.WeekTest" name="testGetFirstMillisecondWithCalendar" time="0"/>
+  <testcase classname="org.jfree.data.time.WeekTest" name="testGetFirstMillisecondWithCalendar" time="0.001"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testGetStart" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testWeek12005" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testNext" time="0"/>
-  <testcase classname="org.jfree.data.time.WeekTest" name="testW1Y1900Previous" time="0.001"/>
+  <testcase classname="org.jfree.data.time.WeekTest" name="testW1Y1900Previous" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testGetLastMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testGetFirstMillisecond" time="0"/>
-  <testcase classname="org.jfree.data.time.WeekTest" name="testGetFirstMillisecondWithTimeZone" time="0"/>
+  <testcase classname="org.jfree.data.time.WeekTest" name="testGetFirstMillisecondWithTimeZone" time="0.001"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testNotCloneable" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testW52Y9999Next" time="0"/>
@@ -81,7 +81,7 @@
   <testcase classname="org.jfree.data.time.WeekTest" name="testWeek532005" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testW1Y1900Next" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testBug1448828" time="0"/>
-  <testcase classname="org.jfree.data.time.WeekTest" name="testBug1498805" time="0.001"/>
+  <testcase classname="org.jfree.data.time.WeekTest" name="testBug1498805" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testGetLastMillisecond" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testGetLastMillisecondWithTimeZone" time="0"/>
   <testcase classname="org.jfree.data.time.WeekTest" name="testConstructor" time="0.001"/>

@@ -64,10 +64,10 @@
   </properties>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testAdditionOfDuplicatePeriod" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testSerialization" time="0"/>
-  <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testSetMaximumItemCount2" time="0.001"/>
+  <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testSetMaximumItemCount2" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testClear" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testSetMaximumItemCount" time="0"/>
-  <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testRemove_int" time="0"/>
+  <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testRemove_int" time="0.001"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCSeriesTest" name="testEquals" time="0"/>

@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testAutoPrune" time="0"/>
-  <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testSerialization" time="0.001"/>
-  <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testPrune" time="0"/>
+  <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testSerialization" time="0"/>
+  <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testPrune" time="0.001"/>
   <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testRemoveAllValuesForX" time="0"/>
   <testcase classname="org.jfree.data.xy.TableXYDatasetTest" name="testCloning" time="0"/>

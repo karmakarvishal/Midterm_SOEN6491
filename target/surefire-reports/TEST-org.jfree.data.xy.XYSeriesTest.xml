@@ -70,7 +70,7 @@
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testSetMaximumItemCount3" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testSetMaximumItemCount4" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testClear" time="0"/>
-  <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testAddOrUpdate" time="0.001"/>
+  <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testAddOrUpdate" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testUpdate2" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testToArrayExample" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testGetMaxX" time="0"/>
@@ -88,13 +88,13 @@
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testUpdateByIndex3" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testIndexOf2" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testIndexOf3" time="0"/>
-  <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testHashCode" time="0.001"/>
+  <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testHashCode" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testDelete" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testEquals" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testIndexOf" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testRemove" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testSetKey" time="0"/>
-  <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testUpdate" time="0"/>
+  <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testUpdate" time="0.001"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testCloning2" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testCloning3" time="0"/>
   <testcase classname="org.jfree.data.xy.XYSeriesTest" name="testBug1955483" time="0"/>

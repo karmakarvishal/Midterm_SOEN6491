@@ -68,10 +68,10 @@
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testAutoRange3" time="0"/>
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testAutoRange4" time="0"/>
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testSetLowerBound" time="0"/>
-  <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testXYAutoRange1" time="0"/>
+  <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testXYAutoRange1" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testXYAutoRange2" time="0"/>
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testTranslateJava2DToValue" time="0"/>
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testHashCode" time="0"/>
-  <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.NumberAxisTest" name="testEquals" time="0"/>
 </testsuite>

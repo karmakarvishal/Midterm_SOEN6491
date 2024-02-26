@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="org.jfree.data.time.QuarterTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="org.jfree.data.time.QuarterTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -64,7 +64,7 @@
   </properties>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testGetFirstMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testGetStart" time="0"/>
-  <testcase classname="org.jfree.data.time.QuarterTest" name="testSerialization" time="0"/>
+  <testcase classname="org.jfree.data.time.QuarterTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testQ1Y1900Previous" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testNext" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testQ1Y1900Next" time="0"/>
@@ -74,7 +74,7 @@
   <testcase classname="org.jfree.data.time.QuarterTest" name="testDateConstructor1" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testDateConstructor2" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testQ4Y9999Next" time="0"/>
-  <testcase classname="org.jfree.data.time.QuarterTest" name="testGetFirstMillisecond" time="0"/>
+  <testcase classname="org.jfree.data.time.QuarterTest" name="testGetFirstMillisecond" time="0.001"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testGetFirstMillisecondWithTimeZone" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testNotCloneable" time="0"/>
   <testcase classname="org.jfree.data.time.QuarterTest" name="testHashcode" time="0"/>

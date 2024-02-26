@@ -65,7 +65,7 @@
   <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testSerialization" time="0.003"/>
   <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testFindRangeBounds" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testCloning" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testCloning" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testHashcode" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.category.WaterfallBarRendererTest" name="testEquals" time="0"/>
 </testsuite>

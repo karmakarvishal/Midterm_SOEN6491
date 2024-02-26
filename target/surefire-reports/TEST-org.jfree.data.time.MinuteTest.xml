@@ -66,11 +66,11 @@
   <testcase classname="org.jfree.data.time.MinuteTest" name="testGetStart" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testNext" time="0"/>
-  <testcase classname="org.jfree.data.time.MinuteTest" name="testGetLastMillisecondWithCalendar" time="0.001"/>
+  <testcase classname="org.jfree.data.time.MinuteTest" name="testGetLastMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testEqualsSelf" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testDateConstructor1" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testDateConstructor2" time="0"/>
-  <testcase classname="org.jfree.data.time.MinuteTest" name="test1611872" time="0"/>
+  <testcase classname="org.jfree.data.time.MinuteTest" name="test1611872" time="0.001"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testGetFirstMillisecond" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testGetFirstMillisecondWithTimeZone" time="0"/>
   <testcase classname="org.jfree.data.time.MinuteTest" name="testNotCloneable" time="0"/>

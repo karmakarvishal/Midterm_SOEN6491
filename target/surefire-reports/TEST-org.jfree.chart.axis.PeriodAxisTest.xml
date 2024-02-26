@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="7" failures="0" name="org.jfree.chart.axis.PeriodAxisTest" time="0.036" errors="0" skipped="0">
+<testsuite tests="7" failures="0" name="org.jfree.chart.axis.PeriodAxisTest" time="0.038" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -62,11 +62,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testSerialization" time="0.002"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testSerialization" time="0.003"/>
   <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="test1932146" time="0.001"/>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testEqualsWithLocale" time="0.032"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testEqualsWithLocale" time="0.033"/>
   <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testHashCode" time="0"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testHashCode" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="test2490803" time="0"/>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisTest" name="testEquals" time="0"/>
 </testsuite>

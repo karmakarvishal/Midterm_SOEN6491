@@ -62,13 +62,13 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testSerialization" time="0.001"/>
+  <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testAdd" time="0"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testAddUpdatesCachedRange" time="0"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="test1701822" time="0"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testGetRangeBounds" time="0"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testRemove" time="0"/>
+  <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testRemove" time="0.001"/>
   <testcase classname="org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDatasetTest" name="testConstructor" time="0"/>
 </testsuite>

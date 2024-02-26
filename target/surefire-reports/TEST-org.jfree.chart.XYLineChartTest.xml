@@ -63,6 +63,6 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.chart.XYLineChartTest" name="testDrawWithNullInfo" time="0"/>
-  <testcase classname="org.jfree.chart.XYLineChartTest" name="testSetSeriesToolTipGenerator" time="0"/>
-  <testcase classname="org.jfree.chart.XYLineChartTest" name="testReplaceDataset" time="0.001"/>
+  <testcase classname="org.jfree.chart.XYLineChartTest" name="testSetSeriesToolTipGenerator" time="0.001"/>
+  <testcase classname="org.jfree.chart.XYLineChartTest" name="testReplaceDataset" time="0"/>
 </testsuite>

@@ -62,7 +62,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.annotations.XYShapeAnnotationTest" name="testSerialization" time="0"/>
+  <testcase classname="org.jfree.chart.annotations.XYShapeAnnotationTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.chart.annotations.XYShapeAnnotationTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.chart.annotations.XYShapeAnnotationTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.annotations.XYShapeAnnotationTest" name="testHashCode" time="0"/>

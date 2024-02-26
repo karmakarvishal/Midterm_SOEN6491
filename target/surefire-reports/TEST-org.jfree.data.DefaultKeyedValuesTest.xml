@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="org.jfree.data.DefaultKeyedValuesTest" time="0.001" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="org.jfree.data.DefaultKeyedValuesTest" time="0.002" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -67,7 +67,7 @@
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testClear" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testGetItemCount" time="0"/>
-  <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testSortByKeyDescending" time="0"/>
+  <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testSortByKeyDescending" time="0.001"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testRemoveValue" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testInsertValue" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testAddValue" time="0"/>
@@ -76,7 +76,7 @@
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testSortByValueAscending" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testSortByValueDescending" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testGetIndex2" time="0"/>
+  <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testGetIndex2" time="0.001"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testInsertAndRetrieve" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testGetKey" time="0"/>
   <testcase classname="org.jfree.data.DefaultKeyedValuesTest" name="testConstructor" time="0"/>

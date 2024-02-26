@@ -65,5 +65,5 @@
   <testcase classname="org.jfree.data.time.ohlc.OHLCTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.data.time.ohlc.OHLCTest" name="testHashcode" time="0"/>
-  <testcase classname="org.jfree.data.time.ohlc.OHLCTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.data.time.ohlc.OHLCTest" name="testEquals" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="37" failures="0" name="org.jfree.chart.plot.CategoryPlotTest" time="0.017" errors="0" skipped="0">
+<testsuite tests="37" failures="0" name="org.jfree.chart.plot.CategoryPlotTest" time="0.018" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -72,7 +72,7 @@
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization" time="0.003"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testRendererIndices" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testRemoveRangeMarker" time="0"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testGetRangeAxisIndex" time="0"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testGetRangeAxisIndex" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testRemoveDomainMarker" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testGetDomainAxisIndex" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testGetRendererForDataset2" time="0"/>
@@ -86,17 +86,17 @@
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals_ObjectList2" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals_ObjectList3" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals_ObjectList4" time="0"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals_ObjectList5" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals_ObjectList5" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testAxisLocationIndices" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testMapDatasetToRangeAxis" time="0"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testEquals" time="0.002"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testMapDatasetToDomainAxis" time="0"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testDatasetIndices" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testDatasetIndices" time="0"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization2" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization3" time="0.003"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization4" time="0.002"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization5" time="0.003"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization4" time="0.003"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testSerialization5" time="0.002"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testCloning2" time="0"/>
-  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testCloning3" time="0"/>
+  <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testCloning3" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.CategoryPlotTest" name="testConstructor" time="0"/>
 </testsuite>

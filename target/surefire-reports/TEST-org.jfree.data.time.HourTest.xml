@@ -71,14 +71,14 @@
   <testcase classname="org.jfree.data.time.HourTest" name="testLastHourNext" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testFirstHourPrevious" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testFirstHourNext" time="0"/>
-  <testcase classname="org.jfree.data.time.HourTest" name="testGetLastMillisecondWithCalendar" time="0.001"/>
+  <testcase classname="org.jfree.data.time.HourTest" name="testGetLastMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testEqualsSelf" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testDateConstructor1" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testDateConstructor2" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testGetFirstMillisecond" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testGetFirstMillisecondWithTimeZone" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testNotCloneable" time="0"/>
-  <testcase classname="org.jfree.data.time.HourTest" name="testHashcode" time="0"/>
+  <testcase classname="org.jfree.data.time.HourTest" name="testHashcode" time="0.001"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testGetSerialIndex" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testEquals" time="0"/>
   <testcase classname="org.jfree.data.time.HourTest" name="testGetEnd" time="0"/>

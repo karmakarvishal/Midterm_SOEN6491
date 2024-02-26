@@ -66,5 +66,5 @@
   <testcase classname="org.jfree.chart.plot.MultiplePiePlotTest" name="testGetLegendItems" time="0"/>
   <testcase classname="org.jfree.chart.plot.MultiplePiePlotTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.plot.MultiplePiePlotTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.chart.plot.MultiplePiePlotTest" name="testConstructor" time="0"/>
+  <testcase classname="org.jfree.chart.plot.MultiplePiePlotTest" name="testConstructor" time="0.001"/>
 </testsuite>

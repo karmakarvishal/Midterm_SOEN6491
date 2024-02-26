@@ -66,9 +66,9 @@
   <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testFindRangeBounds" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testHashcode" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testFindDomainBounds" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testSerialization2" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testSerialization2" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.XYErrorRendererTest" name="testCloning2" time="0"/>
 </testsuite>

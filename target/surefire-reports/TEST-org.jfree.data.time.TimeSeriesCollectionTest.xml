@@ -70,7 +70,7 @@
   <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testRemoveSeries" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testGetRangeBounds2" time="0"/>
-  <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testGetRangeBounds" time="0.001"/>
+  <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testGetRangeBounds" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testEquals" time="0"/>
   <testcase classname="org.jfree.data.time.TimeSeriesCollectionTest" name="testIndexOf" time="0"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="18" failures="0" name="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" time="0.024" errors="0" skipped="0">
+<testsuite tests="18" failures="0" name="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" time="0.026" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -62,22 +62,22 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullInfo" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullInfo" time="0.003"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMean" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMinRegular" time="0.003"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testSerialization" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testBug1572478Vertical" time="0.002"/>
-  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testPublicCloneable" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMedian" time="0.002"/>
+  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testPublicCloneable" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMedian" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMaxRegular" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testGetLegendItemSeriesIndex" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMinOutlier" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testHashcode" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullQ1" time="0.002"/>
+  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullQ1" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullQ3" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testGetLegendItem" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testGetLegendItem" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testBug1572478Horizontal" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.BoxAndWhiskerRendererTest" name="testDrawWithNullMaxOutlier" time="0.002"/>
 </testsuite>

@@ -62,11 +62,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testSerialization" time="0.002"/>
-  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testDrawWithEmptyDataset" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testSerialization" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testDrawWithEmptyDataset" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testPublicCloneable" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testFindRangeBounds" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testFindRangeBounds" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testHashcode" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testHashcode" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYAreaRenderer2Test" name="testEquals" time="0"/>
 </testsuite>

@@ -1162,12 +1162,12 @@ public abstract class AbstractXYItemRenderer extends AbstractRenderer
     		Font labelFont = marker.getLabelFont();
     		g2.setFont(labelFont);
     		g2.setPaint(marker.getLabelPaint());
-    		Point2D coordinates = calculateMarkerTextAnchorPoint(
-    				g2, line, dataArea, marker.getLabelOffset(),
-    				LengthAdjustmentType.EXPAND, anchor);
-    		TextUtilities.drawAlignedString(label, g2,
-    				(float) coordinates.getX(), (float) coordinates.getY(),
-    				marker.getLabelTextAnchor());
+    		// Point2D coordinates = calculateMarkerTextAnchorPoint(
+    		// 		g2, line, dataArea, marker.getLabelOffset(),
+    		// 		LengthAdjustmentType.EXPAND, anchor);
+    		// TextUtilities.drawAlignedString(label, g2,
+    		// 		(float) coordinates.getX(), (float) coordinates.getY(),
+    		// 		marker.getLabelTextAnchor());
     	}
     }
     

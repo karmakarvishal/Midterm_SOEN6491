@@ -64,7 +64,7 @@
   </properties>
   <testcase classname="org.jfree.data.time.MonthTest" name="testGetFirstMillisecondWithCalendar" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testParseMonth" time="0"/>
-  <testcase classname="org.jfree.data.time.MonthTest" name="testGetStart" time="0.001"/>
+  <testcase classname="org.jfree.data.time.MonthTest" name="testGetStart" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testSerialization" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testNext" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testJan1900Next" time="0"/>
@@ -76,7 +76,7 @@
   <testcase classname="org.jfree.data.time.MonthTest" name="testGetFirstMillisecond" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testGetFirstMillisecondWithTimeZone" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testNotCloneable" time="0"/>
-  <testcase classname="org.jfree.data.time.MonthTest" name="testJan1900Previous" time="0.001"/>
+  <testcase classname="org.jfree.data.time.MonthTest" name="testJan1900Previous" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testGetSerialIndex" time="0"/>
   <testcase classname="org.jfree.data.time.MonthTest" name="testEquals" time="0"/>

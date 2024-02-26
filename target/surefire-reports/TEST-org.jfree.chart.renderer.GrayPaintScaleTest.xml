@@ -63,8 +63,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testGetPaint" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testSerialization" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testConstructor" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.GrayPaintScaleTest" name="testConstructor" time="0"/>
 </testsuite>

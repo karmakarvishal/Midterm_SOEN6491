@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="23" failures="0" name="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" time="0.005" errors="0" skipped="0">
+<testsuite tests="23" failures="0" name="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" time="0.004" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -63,22 +63,22 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testSerialization" time="0.002"/>
-  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList2" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList3" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList4" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList5" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList5" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testPublicCloneable" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testFindRangeBounds" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1a" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1a" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1b" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1c" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList1d" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList2a" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList2b" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList2b" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList2c" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList2d" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.StackedBarRenderer3DTest" name="testCreateStackedValueList3a" time="0"/>

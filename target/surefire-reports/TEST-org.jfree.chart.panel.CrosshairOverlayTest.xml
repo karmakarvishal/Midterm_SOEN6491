@@ -62,7 +62,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.panel.CrosshairOverlayTest" name="testSerialization" time="0.003"/>
-  <testcase classname="org.jfree.chart.panel.CrosshairOverlayTest" name="testCloning" time="0.001"/>
+  <testcase classname="org.jfree.chart.panel.CrosshairOverlayTest" name="testSerialization" time="0.004"/>
+  <testcase classname="org.jfree.chart.panel.CrosshairOverlayTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.panel.CrosshairOverlayTest" name="testEquals" time="0"/>
 </testsuite>

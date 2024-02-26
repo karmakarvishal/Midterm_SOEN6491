@@ -64,7 +64,7 @@
   </properties>
   <testcase classname="org.jfree.chart.renderer.category.LineRenderer3DTest" name="testSerialization" time="0.002"/>
   <testcase classname="org.jfree.chart.renderer.category.LineRenderer3DTest" name="testPublicCloneable" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.category.LineRenderer3DTest" name="testCloning" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.category.LineRenderer3DTest" name="testCloning" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.category.LineRenderer3DTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.chart.renderer.category.LineRenderer3DTest" name="testEquals" time="0"/>
 </testsuite>

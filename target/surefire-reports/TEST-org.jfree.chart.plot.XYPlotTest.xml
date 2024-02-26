@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="42" failures="0" name="org.jfree.chart.plot.XYPlotTest" time="0.054" errors="0" skipped="0">
+<testsuite tests="42" failures="0" name="org.jfree.chart.plot.XYPlotTest" time="0.072" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -62,11 +62,11 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testGetRangeAxisForDataset" time="0.001"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testRangeMarkerIndices" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testGetRangeAxisForDataset" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testRangeMarkerIndices" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testDomainMarkerIndices" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList" time="0.001"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testBug2817504" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testBug2817504" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testDrawRangeGridlines" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testAddRangeMarker" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testRemoveAnnotation" time="0"/>
@@ -76,32 +76,32 @@
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testRemoveDomainMarker" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testGetRendererForDataset2" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning_QuadrantPaint" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testGetDomainAxisForDataset" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="test1654215" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testGetDomainAxisForDataset" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="test1654215" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testAddDomainMarker" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testAxisIndices" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloneIndependence" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning" time="0.003"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSetRenderer" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning_QuadrantOrigin" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testGetRendererForDataset" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testDrawSeriesWithZeroItems" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList2" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList3" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList3" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList4" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList5" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals_ObjectList5" time="0.002"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testAxisLocationIndices" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testMapDatasetToRangeAxis" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals" time="0.002"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testEquals" time="0.001"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testMapDatasetToDomainAxis" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testDatasetIndices" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization1" time="0.018"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization2" time="0.013"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization3" time="0.006"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization1" time="0.028"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization2" time="0.015"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization3" time="0.008"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization4" time="0.004"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization5" time="0.001"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSerialization5" time="0.002"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testSetNullRenderer" time="0"/>
   <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning2" time="0"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning3" time="0.001"/>
-  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning4" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning3" time="0"/>
+  <testcase classname="org.jfree.chart.plot.XYPlotTest" name="testCloning4" time="0.001"/>
 </testsuite>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="org.jfree.chart.StackedBarChartTest" time="0.908" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="org.jfree.chart.StackedBarChartTest" time="1.005" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="21.0.2"/>
@@ -62,7 +62,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.StackedBarChartTest" name="testDrawWithNullInfo" time="0.895"/>
+  <testcase classname="org.jfree.chart.StackedBarChartTest" name="testDrawWithNullInfo" time="0.992"/>
   <testcase classname="org.jfree.chart.StackedBarChartTest" name="testSetSeriesToolTipGenerator" time="0"/>
   <testcase classname="org.jfree.chart.StackedBarChartTest" name="testSetSeriesURLGenerator" time="0"/>
   <testcase classname="org.jfree.chart.StackedBarChartTest" name="testReplaceDataset" time="0"/>

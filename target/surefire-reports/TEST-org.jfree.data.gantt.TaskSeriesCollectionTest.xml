@@ -73,12 +73,12 @@
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetSeriesKey" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetSeriesCount" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testCloning" time="0"/>
-  <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetStartValue2" time="0"/>
+  <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetStartValue2" time="0.001"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetStartValue3" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="test697153" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="test800324" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testEquals" time="0"/>
-  <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetRowCount" time="0.001"/>
+  <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetRowCount" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetRowKey" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetRowIndex" time="0"/>
   <testcase classname="org.jfree.data.gantt.TaskSeriesCollectionTest" name="testGetSeries" time="0"/>

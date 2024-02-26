@@ -64,7 +64,7 @@
   </properties>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testPublicCloneable" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testFindRangeBounds" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testFindRangeBounds" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testHashcode" time="0"/>
   <testcase classname="org.jfree.chart.renderer.xy.StackedXYBarRendererTest" name="testFindDomainBounds" time="0"/>

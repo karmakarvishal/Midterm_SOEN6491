@@ -69,15 +69,15 @@
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetNegativeItemLabelPosition" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testOutlinePaintLookup" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEventNotification" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testCloning" time="0.001"/>
+  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testAutoPopulateFlagDefaults" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetOutlinePaint" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEquals_ObjectList2" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEquals_ObjectList3" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEquals_ObjectList3" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEquals_ObjectList4" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetStroke" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEquals" time="0.001"/>
-  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testFillPaintLookup" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testEquals" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testFillPaintLookup" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetPositiveItemLabelPosition" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetSeriesVisible" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetItemLabelPaint" time="0"/>
@@ -85,6 +85,6 @@
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetOutlineStroke" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetItemLabelFont" time="0"/>
   <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetPaint" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetShape" time="0.001"/>
-  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testPaintLookup" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testSetShape" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.AbstractRendererTest" name="testPaintLookup" time="0.001"/>
 </testsuite>

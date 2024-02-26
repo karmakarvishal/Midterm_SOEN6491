@@ -65,7 +65,7 @@
   <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testSerialization" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testConstructor1" time="0"/>
   <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testConstructor2" time="0"/>
-  <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testGeneral" time="0"/>
+  <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testGeneral" time="0.001"/>
   <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.renderer.LookupPaintScaleTest" name="testEquals" time="0"/>
 </testsuite>

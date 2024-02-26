@@ -62,9 +62,9 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testSerialization" time="0.002"/>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testCreateInstance" time="0"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testSerialization" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testCreateInstance" time="0.001"/>
   <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testCloning" time="0"/>
   <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testHashCode" time="0"/>
-  <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testEquals" time="0.001"/>
+  <testcase classname="org.jfree.chart.axis.PeriodAxisLabelInfoTest" name="testEquals" time="0"/>
 </testsuite>
