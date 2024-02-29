@@ -45,10 +45,26 @@
 
 package org.jfree.chart.plot;
 
+import org.jfree.chart.renderer.xy.AbstractXYItemRenderer.Interface3;
+import org.jfree.chart.renderer.xy.AbstractXYItemRenderer.Interface4;
+
+import java.awt.AlphaComposite;
+import java.awt.Composite;
+import java.awt.Font;
+import java.awt.Graphics2D;
 import java.awt.Paint;
 import java.awt.Stroke;
+import java.awt.geom.Line2D;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.function.Supplier;
 
+import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.event.MarkerChangeEvent;
+import org.jfree.data.Range;
+import org.jfree.text.TextUtilities;
+import org.jfree.ui.RectangleAnchor;
+import org.jfree.ui.RectangleEdge;
 
 /**
  * A marker that represents a single value.  Markers can be added to plots to
@@ -154,4 +170,40 @@ public class ValueMarker extends Marker {
         }
         return true;
     }
+
+    @Override
+	public void draw(Marker marker, ValueAxis domainAxis, XYPlot plot, Rectangle2D dataArea, Graphics2D g2,
+			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, Interface3 arg3, Interface4 arg4) {
+		ValueMarker vm = (ValueMarker) marker;
+		double value = vm.getValue();
+		Range range = domainAxis.getRange();
+		if (!range.contains(value)) {
+			return;
+		}
+		double v = domainAxis.valueToJava2D(value, dataArea, arg0.get());
+		PlotOrientation orientation = plot.getOrientation();
+		Line2D line = null;
+		if (orientation == arg1) {
+			line = new Line2D.Double(dataArea.getMinX(), v, dataArea.getMaxX(), v);
+		} else if (orientation == arg2) {
+			line = new Line2D.Double(v, dataArea.getMinY(), v, dataArea.getMaxY());
+		}
+		final Composite originalComposite = g2.getComposite();
+		g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, marker.getAlpha()));
+		g2.setPaint(marker.getPaint());
+		g2.setStroke(marker.getStroke());
+		g2.draw(line);
+		String label = marker.getLabel();
+		RectangleAnchor anchor = marker.getLabelAnchor();
+		if (label != null) {
+			Font labelFont = marker.getLabelFont();
+			g2.setFont(labelFont);
+			g2.setPaint(marker.getLabelPaint());
+			Point2D coordinates = arg3.apply(orientation, line, anchor);
+			TextUtilities.drawAlignedString(label, g2, (float) coordinates.getX(), (float) coordinates.getY(),
+					marker.getLabelTextAnchor());
+		}
+		g2.setComposite(originalComposite);
+		
+	}
 }
