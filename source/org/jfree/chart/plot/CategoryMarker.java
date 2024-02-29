@@ -46,13 +46,20 @@ package org.jfree.chart.plot;
 
 import java.awt.BasicStroke;
 import java.awt.Color;
+import java.awt.Graphics2D;
 import java.awt.Paint;
 import java.awt.Stroke;
+import java.awt.geom.Rectangle2D;
 import java.io.Serializable;
+import java.util.function.Supplier;
 
+import org.jfree.chart.axis.ValueAxis;
 import org.jfree.chart.event.MarkerChangeEvent;
+import org.jfree.chart.renderer.xy.AbstractXYItemRenderer.Interface3;
+import org.jfree.chart.renderer.xy.AbstractXYItemRenderer.Interface4;
 import org.jfree.chart.util.ParamChecks;
 import org.jfree.ui.LengthAdjustmentType;
+import org.jfree.ui.RectangleEdge;
 
 /**
  * A marker for a category.
@@ -181,6 +188,14 @@ public class CategoryMarker extends Marker implements Cloneable, Serializable {
             return false;
         }
         return true;
+    }
+
+    @Override
+    public void draw(Marker marker, ValueAxis domainAxis, XYPlot plot, Rectangle2D dataArea, Graphics2D g2,
+            Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, Interface3 arg3,
+            Interface4 arg4) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'draw'");
     }
 
 }
