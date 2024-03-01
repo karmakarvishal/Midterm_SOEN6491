@@ -77,176 +77,207 @@ import org.jfree.util.ObjectUtilities;
  */
 public class IntervalMarker extends Marker implements Cloneable, Serializable {
 
-    /** For serialization. */
-    private static final long serialVersionUID = -1762344775267627916L;
+	/** For serialization. */
+	private static final long serialVersionUID = -1762344775267627916L;
 
-    /** The start value. */
-    private double startValue;
+	/** The start value. */
+	private double startValue;
 
-    /** The end value. */
-    private double endValue;
+	/** The end value. */
+	private double endValue;
 
-    /** The gradient paint transformer (optional). */
-    private GradientPaintTransformer gradientPaintTransformer;
+	/** The gradient paint transformer (optional). */
+	private GradientPaintTransformer gradientPaintTransformer;
 
-    /**
-     * Constructs an interval marker.
-     *
-     * @param start  the start of the interval.
-     * @param end  the end of the interval.
-     */
-    public IntervalMarker(double start, double end) {
-        this(start, end, Color.gray, new BasicStroke(0.5f), Color.gray,
-                new BasicStroke(0.5f), 0.8f);
-    }
+	/**
+	 * Constructs an interval marker.
+	 *
+	 * @param start the start of the interval.
+	 * @param end   the end of the interval.
+	 */
+	public IntervalMarker(double start, double end) {
+		this(start, end, Color.gray, new BasicStroke(0.5f), Color.gray, new BasicStroke(0.5f), 0.8f);
+	}
 
-    /**
-     * Creates a new interval marker with the specified range and fill paint.
-     * The outline paint and stroke default to <code>null</code>.
-     *
-     * @param start  the lower bound of the interval.
-     * @param end  the upper bound of the interval.
-     * @param paint  the fill paint (<code>null</code> not permitted).
-     *
-     * @since 1.0.9
-     */
-    public IntervalMarker(double start, double end, Paint paint) {
-        this(start, end, paint, new BasicStroke(0.5f), null, null, 0.8f);
-    }
+	/**
+	 * Creates a new interval marker with the specified range and fill paint. The
+	 * outline paint and stroke default to <code>null</code>.
+	 *
+	 * @param start the lower bound of the interval.
+	 * @param end   the upper bound of the interval.
+	 * @param paint the fill paint (<code>null</code> not permitted).
+	 *
+	 * @since 1.0.9
+	 */
+	public IntervalMarker(double start, double end, Paint paint) {
+		this(start, end, paint, new BasicStroke(0.5f), null, null, 0.8f);
+	}
 
-    /**
-     * Constructs an interval marker.
-     *
-     * @param start  the start of the interval.
-     * @param end  the end of the interval.
-     * @param paint  the paint (<code>null</code> not permitted).
-     * @param stroke  the stroke (<code>null</code> not permitted).
-     * @param outlinePaint  the outline paint.
-     * @param outlineStroke  the outline stroke.
-     * @param alpha  the alpha transparency.
-     */
-    public IntervalMarker(double start, double end,
-                          Paint paint, Stroke stroke,
-                          Paint outlinePaint, Stroke outlineStroke,
-                          float alpha) {
+	/**
+	 * Constructs an interval marker.
+	 *
+	 * @param start         the start of the interval.
+	 * @param end           the end of the interval.
+	 * @param paint         the paint (<code>null</code> not permitted).
+	 * @param stroke        the stroke (<code>null</code> not permitted).
+	 * @param outlinePaint  the outline paint.
+	 * @param outlineStroke the outline stroke.
+	 * @param alpha         the alpha transparency.
+	 */
+	public IntervalMarker(double start, double end, Paint paint, Stroke stroke, Paint outlinePaint,
+			Stroke outlineStroke, float alpha) {
 
-        super(paint, stroke, outlinePaint, outlineStroke, alpha);
-        this.startValue = start;
-        this.endValue = end;
-        this.gradientPaintTransformer = null;
-        setLabelOffsetType(LengthAdjustmentType.CONTRACT);
+		super(paint, stroke, outlinePaint, outlineStroke, alpha);
+		this.startValue = start;
+		this.endValue = end;
+		this.gradientPaintTransformer = null;
+		setLabelOffsetType(LengthAdjustmentType.CONTRACT);
 
-    }
+	}
 
-    /**
-     * Returns the start value for the interval.
-     *
-     * @return The start value.
-     */
-    public double getStartValue() {
-        return this.startValue;
-    }
+	/**
+	 * Returns the start value for the interval.
+	 *
+	 * @return The start value.
+	 */
+	public double getStartValue() {
+		return this.startValue;
+	}
 
-    /**
-     * Sets the start value for the marker and sends a
-     * {@link MarkerChangeEvent} to all registered listeners.
-     *
-     * @param value  the value.
-     *
-     * @since 1.0.3
-     */
-    public void setStartValue(double value) {
-        this.startValue = value;
-        notifyListeners(new MarkerChangeEvent(this));
-    }
+	/**
+	 * Sets the start value for the marker and sends a {@link MarkerChangeEvent} to
+	 * all registered listeners.
+	 *
+	 * @param value the value.
+	 *
+	 * @since 1.0.3
+	 */
+	public void setStartValue(double value) {
+		this.startValue = value;
+		notifyListeners(new MarkerChangeEvent(this));
+	}
 
-    /**
-     * Returns the end value for the interval.
-     *
-     * @return The end value.
-     */
-    public double getEndValue() {
-        return this.endValue;
-    }
+	/**
+	 * Returns the end value for the interval.
+	 *
+	 * @return The end value.
+	 */
+	public double getEndValue() {
+		return this.endValue;
+	}
 
-    /**
-     * Sets the end value for the marker and sends a
-     * {@link MarkerChangeEvent} to all registered listeners.
-     *
-     * @param value  the value.
-     *
-     * @since 1.0.3
-     */
-    public void setEndValue(double value) {
-        this.endValue = value;
-        notifyListeners(new MarkerChangeEvent(this));
-    }
+	/**
+	 * Sets the end value for the marker and sends a {@link MarkerChangeEvent} to
+	 * all registered listeners.
+	 *
+	 * @param value the value.
+	 *
+	 * @since 1.0.3
+	 */
+	public void setEndValue(double value) {
+		this.endValue = value;
+		notifyListeners(new MarkerChangeEvent(this));
+	}
 
-    /**
-     * Returns the gradient paint transformer.
-     *
-     * @return The gradient paint transformer (possibly <code>null</code>).
-     */
-    public GradientPaintTransformer getGradientPaintTransformer() {
-        return this.gradientPaintTransformer;
-    }
+	/**
+	 * Returns the gradient paint transformer.
+	 *
+	 * @return The gradient paint transformer (possibly <code>null</code>).
+	 */
+	public GradientPaintTransformer getGradientPaintTransformer() {
+		return this.gradientPaintTransformer;
+	}
 
-    /**
-     * Sets the gradient paint transformer and sends a
-     * {@link MarkerChangeEvent} to all registered listeners.
-     *
-     * @param transformer  the transformer (<code>null</code> permitted).
-     */
-    public void setGradientPaintTransformer(
-            GradientPaintTransformer transformer) {
-        this.gradientPaintTransformer = transformer;
-        notifyListeners(new MarkerChangeEvent(this));
-    }
+	/**
+	 * Sets the gradient paint transformer and sends a {@link MarkerChangeEvent} to
+	 * all registered listeners.
+	 *
+	 * @param transformer the transformer (<code>null</code> permitted).
+	 */
+	public void setGradientPaintTransformer(GradientPaintTransformer transformer) {
+		this.gradientPaintTransformer = transformer;
+		notifyListeners(new MarkerChangeEvent(this));
+	}
 
-    /**
-     * Tests the marker for equality with an arbitrary object.
-     *
-     * @param obj  the object (<code>null</code> permitted).
-     *
-     * @return A boolean.
-     */
-    @Override
-    public boolean equals(Object obj) {
-        if (obj == this) {
-            return true;
-        }
-        if (!(obj instanceof IntervalMarker)) {
-            return false;
-        }
-        if (!super.equals(obj)) {
-            return false;
-        }
-        IntervalMarker that = (IntervalMarker) obj;
-        if (this.startValue != that.startValue) {
-            return false;
-        }
-        if (this.endValue != that.endValue) {
-            return false;
-        }
-        if (!ObjectUtilities.equal(this.gradientPaintTransformer,
-                that.gradientPaintTransformer)) {
-            return false;
-        }
-        return true;
-    }
+	/**
+	 * Tests the marker for equality with an arbitrary object.
+	 *
+	 * @param obj the object (<code>null</code> permitted).
+	 *
+	 * @return A boolean.
+	 */
+	@Override
+	public boolean equals(Object obj) {
+		if (obj == this) {
+			return true;
+		}
+		if (!(obj instanceof IntervalMarker)) {
+			return false;
+		}
+		if (!super.equals(obj)) {
+			return false;
+		}
+		IntervalMarker that = (IntervalMarker) obj;
+		if (this.startValue != that.startValue) {
+			return false;
+		}
+		if (this.endValue != that.endValue) {
+			return false;
+		}
+		if (!ObjectUtilities.equal(this.gradientPaintTransformer, that.gradientPaintTransformer)) {
+			return false;
+		}
+		return true;
+	}
 
-    /**
-     * Returns a clone of the marker.
-     *
-     * @return A clone.
-     *
-     * @throws CloneNotSupportedException Not thrown by this class, but the
-     *         exception is declared for the use of subclasses.
-     */
-    @Override
-    public Object clone() throws CloneNotSupportedException {
-        return super.clone();
-    }
+	/**
+	 * Returns a clone of the marker.
+	 *
+	 * @return A clone.
+	 *
+	 * @throws CloneNotSupportedException Not thrown by this class, but the
+	 *                                    exception is declared for the use of
+	 *                                    subclasses.
+	 */
+	@Override
+	public Object clone() throws CloneNotSupportedException {
+		return super.clone();
+	}
+
+	private void drawOutline(Graphics2D g2, IntervalMarker im, PlotOrientation orientation, Rectangle2D dataArea,
+			double start2d, double end2d, Range range) {
+		Line2D line = new Line2D.Double();
+		double axisMin = orientation == PlotOrientation.VERTICAL ? dataArea.getMinY() : dataArea.getMinX();
+		double axisMax = orientation == PlotOrientation.VERTICAL ? dataArea.getMaxY() : dataArea.getMaxX();
+
+		g2.setPaint(im.getOutlinePaint());
+		g2.setStroke(im.getOutlineStroke());
+
+		LineParams params = new LineParams(start2d, end2d, axisMin, axisMax);
+		drawLine(g2, line, params, range, orientation == PlotOrientation.VERTICAL);
+	}
+
+	private void drawLine(Graphics2D g2, Line2D line, LineParams params, Range range, boolean isVertical) {
+
+		drawLineIfInRange(g2, line, params.getStart(), params, range, isVertical);
+		drawLineIfInRange(g2, line, params.getEnd(), params, range, isVertical);
+
+	}
+
+	private void drawLineIfInRange(Graphics2D g2, Line2D line, double point, LineParams params, Range range,
+			boolean isVertical) {
+		double axisMin = params.getAxisMin();
+		double axisMax = params.getAxisMax();
+
+		if (range.contains(point)) {
+			if (isVertical) {
+				line.setLine(axisMin, point, axisMax, point);
+			} else {
+				line.setLine(point, axisMin, point, axisMax);
+			}
+			g2.draw(line);
+		}
+	}
 
 	@Override
 	public void draw(Marker marker, ValueAxis domainAxis, XYPlot plot, Rectangle2D dataArea, Graphics2D g2,
@@ -289,35 +320,7 @@ public class IntervalMarker extends Marker implements Cloneable, Serializable {
 		}
 		g2.fill(rect);
 		if (im.getOutlinePaint() != null && im.getOutlineStroke() != null) {
-			if (orientation == arg2) {
-				Line2D line = new Line2D.Double();
-				double y0 = dataArea.getMinY();
-				double y1 = dataArea.getMaxY();
-				g2.setPaint(im.getOutlinePaint());
-				g2.setStroke(im.getOutlineStroke());
-				if (range.contains(start)) {
-					line.setLine(start2d, y0, start2d, y1);
-					g2.draw(line);
-				}
-				if (range.contains(end)) {
-					line.setLine(end2d, y0, end2d, y1);
-					g2.draw(line);
-				}
-			} else if (orientation == arg1) {
-				Line2D line = new Line2D.Double();
-				double x0 = dataArea.getMinX();
-				double x1 = dataArea.getMaxX();
-				g2.setPaint(im.getOutlinePaint());
-				g2.setStroke(im.getOutlineStroke());
-				if (range.contains(start)) {
-					line.setLine(x0, start2d, x1, start2d);
-					g2.draw(line);
-				}
-				if (range.contains(end)) {
-					line.setLine(x0, end2d, x1, end2d);
-					g2.draw(line);
-				}
-			}
+			drawOutline(g2, im, orientation, dataArea, start2d, end2d, range);
 		}
 		String label = marker.getLabel();
 		RectangleAnchor anchor = marker.getLabelAnchor();
@@ -330,9 +333,7 @@ public class IntervalMarker extends Marker implements Cloneable, Serializable {
 					marker.getLabelTextAnchor());
 		}
 		g2.setComposite(originalComposite);
-		
-	}
 
-	
+	}
 
 }
