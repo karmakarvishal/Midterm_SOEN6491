@@ -263,7 +263,7 @@ import org.jfree.util.SortOrder;
  * A general plotting class that uses data from a {@link CategoryDataset} and
  * renders each data item using a {@link CategoryItemRenderer}.
  */
-public class CategoryPlot extends Plot implements ValueAxisPlot, Pannable,
+public class CategoryPlot extends CommonPlot implements ValueAxisPlot, Pannable,
         Zoomable, AnnotationChangeListener, RendererChangeListener,
         Cloneable, PublicCloneable, Serializable {
 

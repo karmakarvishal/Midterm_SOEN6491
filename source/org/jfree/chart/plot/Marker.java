@@ -702,7 +702,7 @@ public abstract class Marker implements Cloneable, Serializable {
         this.listenerList = new EventListenerList();
     }
     
-	public abstract void draw(Marker marker, ValueAxis domainAxis, XYPlot plot, Rectangle2D dataArea, Graphics2D g2,
+	public abstract void draw(Marker marker, ValueAxis domainAxis, CommonPlot plot, Rectangle2D dataArea, Graphics2D g2,
 			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, Interface3 arg3,Interface4 arg4);
 
 }

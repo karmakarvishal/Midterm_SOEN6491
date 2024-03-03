@@ -172,7 +172,7 @@ public class ValueMarker extends Marker {
     }
 
     @Override
-	public void draw(Marker marker, ValueAxis domainAxis, XYPlot plot, Rectangle2D dataArea, Graphics2D g2,
+	public void draw(Marker marker, ValueAxis domainAxis, CommonPlot plot, Rectangle2D dataArea, Graphics2D g2,
 			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, Interface3 arg3, Interface4 arg4) {
 		ValueMarker vm = (ValueMarker) marker;
 		double value = vm.getValue();

@@ -316,7 +316,7 @@ import org.jfree.util.PublicCloneable;
  * The {@link org.jfree.chart.ChartFactory} class contains static methods for
  * creating pre-configured charts.
  */
-public class XYPlot extends Plot implements ValueAxisPlot, Pannable, Zoomable,
+public class XYPlot extends CommonPlot implements ValueAxisPlot, Pannable, Zoomable,
         RendererChangeListener, Cloneable, PublicCloneable, Serializable {
 
     /** For serialization. */
