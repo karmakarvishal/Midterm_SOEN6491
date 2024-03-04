@@ -130,9 +130,11 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.Iterator;
 import java.util.List;
-
+import java.util.function.Supplier;
 import org.jfree.chart.event.AxisChangeEvent;
+import org.jfree.chart.plot.CommonPlot;
 import org.jfree.chart.plot.Plot;
+import org.jfree.chart.plot.PlotOrientation;
 import org.jfree.chart.util.AttrStringUtils;
 import org.jfree.chart.util.ParamChecks;
 import org.jfree.data.Range;
@@ -1784,5 +1786,18 @@ public abstract class ValueAxis extends Axis
         this.leftArrow = SerialUtilities.readShape(stream);
         this.rightArrow = SerialUtilities.readShape(stream);
     }
+
+	public Line2D lineExtractFE(CommonPlot plot, Rectangle2D dataArea, Supplier<RectangleEdge> arg0,
+			PlotOrientation arg1, PlotOrientation arg2, double value) {
+		double v = valueToJava2D(value, dataArea, arg0.get());
+		PlotOrientation orientation = plot.getOrientation();
+		Line2D line = null;
+		if (orientation == arg1) {
+			line = new Line2D.Double(dataArea.getMinX(), v, dataArea.getMaxX(), v);
+		} else if (orientation == arg2) {
+			line = new Line2D.Double(v, dataArea.getMinY(), v, dataArea.getMaxY());
+		}
+		return line;
+	}
 
 }
