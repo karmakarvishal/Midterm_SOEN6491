@@ -180,14 +180,8 @@ public class ValueMarker extends Marker {
 		if (!range.contains(value)) {
 			return;
 		}
-		double v = domainAxis.valueToJava2D(value, dataArea, arg0.get());
+		Line2D line = lineExtract(domainAxis, plot, dataArea, arg0, arg1, arg2, value);
 		PlotOrientation orientation = plot.getOrientation();
-		Line2D line = null;
-		if (orientation == arg1) {
-			line = new Line2D.Double(dataArea.getMinX(), v, dataArea.getMaxX(), v);
-		} else if (orientation == arg2) {
-			line = new Line2D.Double(v, dataArea.getMinY(), v, dataArea.getMaxY());
-		}
 		final Composite originalComposite = g2.getComposite();
 		g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, marker.getAlpha()));
 		g2.setPaint(marker.getPaint());
@@ -205,5 +199,18 @@ public class ValueMarker extends Marker {
 		}
 		g2.setComposite(originalComposite);
 		
+	}
+
+	private Line2D lineExtract(ValueAxis domainAxis, CommonPlot plot, Rectangle2D dataArea,
+			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, double value) {
+		double v = domainAxis.valueToJava2D(value, dataArea, arg0.get());
+		PlotOrientation orientation = plot.getOrientation();
+		Line2D line = null;
+		if (orientation == arg1) {
+			line = new Line2D.Double(dataArea.getMinX(), v, dataArea.getMaxX(), v);
+		} else if (orientation == arg2) {
+			line = new Line2D.Double(v, dataArea.getMinY(), v, dataArea.getMaxY());
+		}
+		return line;
 	}
 }

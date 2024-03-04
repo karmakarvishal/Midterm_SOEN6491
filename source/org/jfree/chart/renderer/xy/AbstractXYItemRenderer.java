@@ -164,6 +164,7 @@ import org.jfree.chart.labels.StandardXYSeriesLabelGenerator;
 import org.jfree.chart.labels.XYItemLabelGenerator;
 import org.jfree.chart.labels.XYSeriesLabelGenerator;
 import org.jfree.chart.labels.XYToolTipGenerator;
+import org.jfree.chart.plot.CommonPlot;
 import org.jfree.chart.plot.CrosshairState;
 import org.jfree.chart.plot.DrawingSupplier;
 import org.jfree.chart.plot.IntervalMarker;
@@ -1588,7 +1589,7 @@ public abstract class AbstractXYItemRenderer extends AbstractRenderer
 		return anchorRect;
 	}
 
-	private void extracted(Marker marker, ValueAxis domainAxis, XYPlot plot, Rectangle2D dataArea, Graphics2D g2,
+	private void extracted(Marker marker, ValueAxis domainAxis, CommonPlot plot, Rectangle2D dataArea, Graphics2D g2,
 			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, Interface3 arg3,
 			Interface4 arg4) {
 
