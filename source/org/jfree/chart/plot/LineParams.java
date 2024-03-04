@@ -1,5 +1,9 @@
 package org.jfree.chart.plot;
 
+import java.awt.Graphics2D;
+import java.awt.geom.Line2D;
+import org.jfree.data.Range;
+
 public class LineParams {
 	private final double start;
 	private final double end;
@@ -27,5 +31,23 @@ public class LineParams {
 
 	public double getAxisMax() {
 		return axisMax;
+	}
+
+	public void drawLineFE(Graphics2D g2, Line2D line, Range range, boolean isVertical, IntervalMarker intervalMarker) {
+		intervalMarker.drawLineIfInRange(g2, line, getStart(), this, range, isVertical);
+		intervalMarker.drawLineIfInRange(g2, line, getEnd(), this, range, isVertical);
+	}
+
+	public void drawLineIfInRangeFE(Graphics2D g2, Line2D line, double point, Range range, boolean isVertical) {
+		double axisMin = getAxisMin();
+		double axisMax = getAxisMax();
+		if (range.contains(point)) {
+			if (isVertical) {
+				line.setLine(axisMin, point, axisMax, point);
+			} else {
+				line.setLine(point, axisMin, point, axisMax);
+			}
+			g2.draw(line);
+		}
 	}
 }

@@ -254,29 +254,12 @@ public class IntervalMarker extends Marker implements Cloneable, Serializable {
 		g2.setStroke(im.getOutlineStroke());
 
 		LineParams params = new LineParams(start2d, end2d, axisMin, axisMax);
-		drawLine(g2, line, params, range, orientation == PlotOrientation.VERTICAL);
+		params.drawLineFE(g2, line, range, orientation == PlotOrientation.VERTICAL, this);
 	}
 
-	private void drawLine(Graphics2D g2, Line2D line, LineParams params, Range range, boolean isVertical) {
-
-		drawLineIfInRange(g2, line, params.getStart(), params, range, isVertical);
-		drawLineIfInRange(g2, line, params.getEnd(), params, range, isVertical);
-
-	}
-
-	private void drawLineIfInRange(Graphics2D g2, Line2D line, double point, LineParams params, Range range,
+	public void drawLineIfInRange(Graphics2D g2, Line2D line, double point, LineParams params, Range range,
 			boolean isVertical) {
-		double axisMin = params.getAxisMin();
-		double axisMax = params.getAxisMax();
-
-		if (range.contains(point)) {
-			if (isVertical) {
-				line.setLine(axisMin, point, axisMax, point);
-			} else {
-				line.setLine(point, axisMin, point, axisMax);
-			}
-			g2.draw(line);
-		}
+		params.drawLineIfInRangeFE(g2, line, point, range, isVertical);
 	}
 
 	@Override
