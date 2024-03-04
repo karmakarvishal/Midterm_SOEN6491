@@ -283,6 +283,7 @@ public class IntervalMarker extends Marker implements Cloneable, Serializable {
 	public void draw(Marker marker, ValueAxis domainAxis, CommonPlot plot, Rectangle2D dataArea, Graphics2D g2,
 			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2, Interface3 arg3,
 			Interface4 arg4) {
+		Rectangle2D rect = rectExtract(marker, domainAxis, plot, dataArea, arg0, arg1, arg2);
 		IntervalMarker im = (IntervalMarker) marker;
 		double start = im.getStartValue();
 		double end = im.getEndValue();
@@ -292,28 +293,12 @@ public class IntervalMarker extends Marker implements Cloneable, Serializable {
 		}
 		double start2d = domainAxis.valueToJava2D(start, dataArea, arg0.get());
 		double end2d = domainAxis.valueToJava2D(end, dataArea, arg0.get());
-		double low = Math.min(start2d, end2d);
-		double high = Math.max(start2d, end2d);
 		PlotOrientation orientation = plot.getOrientation();
-		Rectangle2D rect = null;
-		if (orientation == arg1) {
-			low = Math.max(low, dataArea.getMinY());
-			high = Math.min(high, dataArea.getMaxY());
-			rect = new Rectangle2D.Double(dataArea.getMinX(), low, dataArea.getWidth(), high - low);
-		} else if (orientation == arg2) {
-			low = Math.max(low, dataArea.getMinX());
-			high = Math.min(high, dataArea.getMaxX());
-			rect = new Rectangle2D.Double(low, dataArea.getMinY(), high - low, dataArea.getHeight());
-		}
 		final Composite originalComposite = g2.getComposite();
 		g2.setComposite(AlphaComposite.getInstance(AlphaComposite.SRC_OVER, marker.getAlpha()));
 		Paint p = marker.getPaint();
 		if (p instanceof GradientPaint) {
-			GradientPaint gp = (GradientPaint) p;
-			GradientPaintTransformer t = im.getGradientPaintTransformer();
-			if (t != null) {
-				gp = t.transform(gp, rect);
-			}
+			GradientPaint gp = gpExtract(rect, im, p);
 			g2.setPaint(gp);
 		} else {
 			g2.setPaint(p);
@@ -334,6 +319,38 @@ public class IntervalMarker extends Marker implements Cloneable, Serializable {
 		}
 		g2.setComposite(originalComposite);
 
+	}
+
+	private GradientPaint gpExtract(Rectangle2D rect, IntervalMarker im, Paint p) {
+		GradientPaint gp = (GradientPaint) p;
+		GradientPaintTransformer t = im.getGradientPaintTransformer();
+		if (t != null) {
+			gp = t.transform(gp, rect);
+		}
+		return gp;
+	}
+
+	private Rectangle2D rectExtract(Marker marker, ValueAxis domainAxis, CommonPlot plot, Rectangle2D dataArea,
+			Supplier<RectangleEdge> arg0, PlotOrientation arg1, PlotOrientation arg2) {
+		IntervalMarker im = (IntervalMarker) marker;
+		double start = im.getStartValue();
+		double end = im.getEndValue();
+		double start2d = domainAxis.valueToJava2D(start, dataArea, arg0.get());
+		double end2d = domainAxis.valueToJava2D(end, dataArea, arg0.get());
+		double low = Math.min(start2d, end2d);
+		double high = Math.max(start2d, end2d);
+		PlotOrientation orientation = plot.getOrientation();
+		Rectangle2D rect = null;
+		if (orientation == arg1) {
+			low = Math.max(low, dataArea.getMinY());
+			high = Math.min(high, dataArea.getMaxY());
+			rect = new Rectangle2D.Double(dataArea.getMinX(), low, dataArea.getWidth(), high - low);
+		} else if (orientation == arg2) {
+			low = Math.max(low, dataArea.getMinX());
+			high = Math.min(high, dataArea.getMaxX());
+			rect = new Rectangle2D.Double(low, dataArea.getMinY(), high - low, dataArea.getHeight());
+		}
+		return rect;
 	}
 
 }
